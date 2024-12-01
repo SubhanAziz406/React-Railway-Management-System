@@ -1,0 +1,6 @@
+Color Paletts 
+Primary: #4A90E2 (Vibrant Blue)
+Secondary: #2D3748 (Charcoal Grey)
+Accent: #F56565 (Soft Red for warnings or alerts)
+Background: #F7FAFC (Light Grey/Off White)
+Text: #1A202C (Dark Grey)

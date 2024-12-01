@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import your custom main.css */
+@import './assents/css/main.css';
+html {
+    scroll-behavior: smooth;
+  }
+  
