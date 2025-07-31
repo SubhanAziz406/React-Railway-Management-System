@@ -1,0 +1,104 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  /* Smooth theme transition */
+  body {
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  /* Navbar Link Transition */
+  .navbar a {
+    transition: color 0.3s;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    padding: 20px;
+  
+  }
+  .bg-hero {
+    background-image: url('../images/bg/bg-2.jpg'); /* Ensure the correct relative path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  /* Navbar Styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #2C3E50;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  }
+  /* Animations */
+/* Smooth Typewriter Effect */
+.typewriter-text {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: orange; }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-fadeInUp {
+    animation: fadeInUp 0.8s ease forwards;
+  }
+  .button {
+    transition: transform 0.2s ease-in-out;
+  }
+  .button:hover {
+    transform: translateY(-3px);
+  }
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-fadeInUp {
+    animation: fadeInUp 0.8s ease-out both;
+  }
+  
+  /* Add to your main.css */
+.testimonial-feedback {
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.testimonial-name {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
