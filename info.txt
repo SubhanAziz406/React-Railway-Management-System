@@ -1,15 +1,15 @@
-MONGO_URI=mongodb+srv://subhanaziz406:Subhan.Aziz406@cluster0.ltx3g.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-JWT_SECRET=9afc783ecb5e4eab9e2f432f44d8410b
+MONGO_URI=mongodb+srv://name:password.ltx3g.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+JWT_SECRET=00001111222555
 PORT=8000
 
 frontendBaseUrl = http://localhost:3000
 NODE_ENV=development
-SESSION_SECRET=2f9a7b4c8e3d6f0i5h2j9k4m1n8p5q7r3t6v9x2z5
+SESSION_SECRET=000111555888
 
 
 # Email Configuration
-EMAIL_USERNAME=uk9537820@gmail.com
-EMAIL_PASSWORD=wlpwbosgieudirwr
+EMAIL_USERNAME=your mail
+EMAIL_PASSWORD=password
 SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
 
